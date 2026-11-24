@@ -20,6 +20,7 @@ bruin run .
 
 ## Sponsor tools used
 - **Bruin**: data pipeline over the agents' decision log (`pipeline.yml`, `assets/`), audit table `mart.agent_decisions`
+- **AdaL**: the demo video above was made with AdaL
 - **Teamily**: team coordination and submission during the event
 
 ## Team

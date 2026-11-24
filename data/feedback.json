@@ -1,3 +1,16 @@
 {
-  "raw": "You've hit your weekly limit \u00b7 resets Nov 24 at 7pm (America/Los_Angeles)"
+  "communication": {
+    "score": 4,
+    "quote": "I listened to the whole thing first, then went through the charges with them line by line and explained what had changed.",
+    "turn": "T2b"
+  },
+  "problem_solving": {
+    "score": 3,
+    "quote": "I flagged it to my team lead right away and stayed on the line while a billing specialist got involved, so the customer wasn't passed around.",
+    "turn": "T3b"
+  },
+  "tips": [
+    "Replace \"I honestly don't remember the exact amount\" with a clearly labelled best estimate (for example, \"about three charges, roughly 40 EUR total\"), so the answer shows the outcome, not just the uncertainty.",
+    "In T3b, close the loop: name the root cause the billing specialist found, state how the charge was reversed, and say how you followed up with the customer afterwards."
+  ]
 }

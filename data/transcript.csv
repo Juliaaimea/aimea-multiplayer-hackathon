@@ -1,7 +1,7 @@
 turn,who,text
-T1a,Mea,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-T1b,Candidate,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-T2a,Mea,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-T2b,Candidate,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-T3a,Mea,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-T3b,Candidate,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+T1a,Mea,"Tell me about a time a customer was upset about an order or a product, and you had to turn the conversation around. What did you do first, and how did it end?"
+T1b,Candidate,"I usually let the customer finish without interrupting, then said something like, ""I'm sorry this happened, let's see what we can do."" Once they felt heard, I checked the order and offered a replacement or a refund, whichever they preferred. It usually ended with them calmer and still a customer, though I honestly don't remember the exact count of cases like that."
+T2a,Mea,"Could you walk me through one specific case, ideally the most recent one you remember? What exactly did the customer complain about, what did you say and do first, and how did it end?"
+T2b,Candidate,"Sure. The most recent one was a customer whose bill went up after a plan change, and they were pretty upset that nobody had told them. I listened to the whole thing first, then went through the charges with them line by line and explained what had changed. I think it ended okay, because they agreed to keep the new plan and I put a note on their account, though I honestly don't remember the exact amount."
+T3a,Mea,"Think of a time you couldn't solve a customer's problem on your own. What did you do next, and how did the customer feel by the end?"
+T3b,Candidate,"I had a customer whose subscription kept charging them after they'd cancelled, and I couldn't trace the cause myself. I flagged it to my team lead right away and stayed on the line while a billing specialist got involved, so the customer wasn't passed around. By the end, they seemed relieved and thanked me for sticking with them, though I honestly don't remember how many times the charge had gone through."

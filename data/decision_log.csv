@@ -1,7 +1,9 @@
 turn,agent,decision,reason
-1,Mea,new question,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-1,Candidate,answered,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-2,Mea,new question,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-2,Candidate,answered,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-3,Mea,new question,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
-3,Candidate,answered,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+1,Mea,new question,"Tell me about a time a customer was upset about an order or a product, and you had to turn"
+1,Candidate,answered,"I usually let the customer finish without interrupting, then said something like, ""I'm sor"
+2,Mea,new question,"Could you walk me through one specific case, ideally the most recent one you remember? Wha"
+2,Candidate,answered,"Sure. The most recent one was a customer whose bill went up after a plan change, and they "
+3,Mea,new question,"Think of a time you couldn't solve a customer's problem on your own. What did you do next,"
+3,Candidate,answered,"I had a customer whose subscription kept charging them after they'd cancelled, and I could"
+final,Coach,communication=4,"T2b: ""I listened to the whole thing first, then went through the charges wit"""
+final,Coach,problem_solving=3,"T3b: ""I flagged it to my team lead right away and stayed on the line while a"""
