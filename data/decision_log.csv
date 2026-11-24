@@ -1,0 +1,9 @@
+turn,agent,decision,reason
+1,Mea,new question,"Erzählen Sie mir von einer Situation, in der ein Kunde sehr unzufrieden war. Was ist passi"
+1,Candidate,answered,"Ja, da war mal ein Kunde, der wegen einer falsch berechneten Rechnung richtig sauer war un"
+2,Mea,new question,"Was genau haben Sie nach dem Gespräch unternommen, damit die Korrektur tatsächlich bei ihm"
+2,Candidate,answered,"Ich hab ihm noch am selben Abend eine kurze E-Mail geschrieben, dass meine Zahl mit den An"
+3,Mea,new question,"Wie haben Sie entschieden, welches Kundenanliegen zuerst drankommt, als mehrere Kunden gle"
+3,Candidate,answered,"Ehrlich gesagt schaue ich zuerst, wer gerade wirklich festsitzt, zum Beispiel jemand, der "
+final,Coach,communication=4,"T2b: ""Und am Ende des Gesprächs klang er merklich entspannter als am Anfang,"""
+final,Coach,problem_solving=3,"T3b: ""Ehrlich gesagt schaue ich zuerst, wer gerade wirklich festsitzt, zum B"""
