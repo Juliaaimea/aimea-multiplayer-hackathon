@@ -1,6 +1,6 @@
 # aimea: AI first-round interviews (Multiplayer AI Hackathon, SF, Nov 23 2026)
 
-Demo video, made with AdaL: https://youtu.be/a_1f_tTQt9c
+Demo video, made with AdaL: https://youtu.be/4qPz6YgsWxk
 
 Product walkthrough (aimea live interview): https://youtu.be/Vz6OBdX7GWo
 
