@@ -1,0 +1,7 @@
+interview_id,role,minutes,score_communication,score_problem_solving,recommendation
+syn-001,Customer Support,14,4,3,advance
+syn-002,Customer Support,11,3,2,hold
+syn-003,Warehouse Lead,16,5,4,advance
+syn-004,Warehouse Lead,9,2,3,hold
+syn-005,Sales Associate,13,4,4,advance
+syn-006,Sales Associate,12,3,3,advance

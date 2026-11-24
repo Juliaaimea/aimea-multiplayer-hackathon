@@ -1,0 +1,4 @@
+name: raw.interviews
+type: duckdb.seed
+parameters:
+  path: ../data/interviews.csv
