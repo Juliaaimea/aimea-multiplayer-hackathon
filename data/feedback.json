@@ -1,16 +1,3 @@
 {
-  "communication": {
-    "score": 4,
-    "quote": "I let him finish, told him I understood why he was frustrated, and then walked him through a reset while I checked the outage log.",
-    "turn": "T1b"
-  },
-  "problem_solving": {
-    "score": 4,
-    "quote": "I went back into the account, found the duplicate, flagged it to billing, and called her again that afternoon to confirm the refund and explain what had happened.",
-    "turn": "T2b"
-  },
-  "tips": [
-    "Replace hedges with facts you already know: in T3b, say when the callback happened or that you checked the notes, instead of 'I'd like to think she didn't feel forgotten'.",
-    "End each story with a concrete outcome and what you changed afterward, as in T2b, and give the same level of detail for the result in T1b, such as what the customer said at the end."
-  ]
+  "raw": "You've hit your weekly limit \u00b7 resets Nov 24 at 7pm (America/Los_Angeles)"
 }

@@ -1,7 +1,7 @@
 turn,who,text
-T1a,Mea,"Tell me about a time you had to calm down an upset customer. What did they say, and what did you do next?"
-T1b,Candidate,"Sure. A customer once told me, ""This is the third time I've called and nobody has fixed this,"" and he was really angry. I let him finish, told him I understood why he was frustrated, and then walked him through a reset while I checked the outage log. It was maybe a week or so ago, I don't remember the exact count, but he ended the call calmer and thanked me."
-T2a,Mea,"Tell me about a time you made a mistake while helping a customer. What happened, and how did you fix it?"
-T2b,Candidate,"A while back, a customer called about a charge that seemed to go through twice, and I told her the refund would be processed in a day or so without checking the account first. That wasn't right, and I should have looked before promising anything. I went back into the account, found the duplicate, flagged it to billing, and called her again that afternoon to confirm the refund and explain what had happened. Since then I check the account before I make any promise, and I ask a supervisor when I'm not sure."
-T3a,Mea,"Tell me about a time you had to handle several customer requests at once and something had to wait. How did you decide what to tackle first, and what happened to the request that waited?"
-T3b,Candidate,"Sure, I'd say it was a Tuesday when three customers were on hold and one had a billing problem that needed a supervisor. I took the one where someone was about to lose service that day, then called the others back in the order they'd been waiting. The one I put on hold got a call back within the hour, and I'd like to think she didn't feel forgotten, though honestly I'd have to check the notes to say exactly how long it took."
+T1a,Mea,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+T1b,Candidate,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+T2a,Mea,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+T2b,Candidate,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+T3a,Mea,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)
+T3b,Candidate,You've hit your weekly limit · resets Nov 24 at 7pm (America/Los_Angeles)

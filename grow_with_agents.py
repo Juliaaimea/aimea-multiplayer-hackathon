@@ -8,15 +8,26 @@ LLM calls go through the Claude Code CLI (`claude -p`). Synthetic data only.
 import csv, json, subprocess, sys, pathlib
 
 ROLE = "Customer Support Agent (retail, San Francisco)"
-PERSONA = sys.argv[1] if len(sys.argv) > 1 else "Sam, 2 years in a call center, calm, sometimes vague about numbers"
+PERSONA = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else "Sam, 2 years in a call center, calm, sometimes vague about numbers"
 TURNS = 3
 OUT = pathlib.Path(__file__).parent / "data"
+
+if "--replay" in sys.argv:
+    # Replays the recorded sample run in data/run_log.txt, line by line (labelled as replay).
+    import time
+    print("REPLAY of recorded run (data/run_log.txt)\n")
+    for line in (OUT / "run_log.txt").read_text().splitlines():
+        print(line); time.sleep(0.6 if line.startswith("[") else 0.05)
+    sys.exit(0)
 
 def ask(system, prompt):
     system = "Always answer in English. " + system
     r = subprocess.run(["claude", "-p", "--model", "haiku", f"{system}\n\n{prompt}"],
                        capture_output=True, text=True, timeout=120)
-    return r.stdout.strip()
+    out = r.stdout.strip()
+    if "limit" in out.lower() and "reset" in out.lower():
+        sys.exit("LLM usage limit reached: " + out + "\nTip: run with --replay to show the recorded run.")
+    return out
 
 log, transcript = [], []
 def decide(turn, agent, decision, reason):

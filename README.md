@@ -18,5 +18,9 @@ bruin validate .
 bruin run .
 ```
 
+## Sponsor tools used
+- **Bruin**: data pipeline over the agents' decision log (`pipeline.yml`, `assets/`), audit table `mart.agent_decisions`
+- **Teamily**: team coordination and submission during the event
+
 ## Team
 Julia Kurkowski, CEO aimea.ai (Hamburg / San Francisco)
