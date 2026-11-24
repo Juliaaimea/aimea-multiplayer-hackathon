@@ -1,6 +1,8 @@
 # aimea: AI first-round interviews (Multiplayer AI Hackathon, SF, Nov 23 2026)
 
-Demo video (EN): https://www.youtube.com/watch?v=PTSh6aeMNKE
+Demo video, made with AdaL: https://youtu.be/a_1f_tTQt9c
+
+Product walkthrough (aimea live interview): https://youtu.be/Vz6OBdX7GWo
 
 **aimea** runs the first-round job interview as a live voice conversation between an AI interviewer (Mea) and the candidate, then hands the recruiting team a structured, evidence-based report. Multiplayer by design: candidate, AI interviewer and hiring team work on one shared interview record.
 
