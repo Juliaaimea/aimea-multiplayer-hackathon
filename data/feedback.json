@@ -1,16 +1,16 @@
 {
   "communication": {
     "score": 4,
-    "quote": "Und am Ende des Gespr\u00e4chs klang er merklich entspannter als am Anfang, das hab ich schon an seiner Stimme geh\u00f6rt.",
-    "turn": "T2b"
+    "quote": "I let him finish, told him I understood why he was frustrated, and then walked him through a reset while I checked the outage log.",
+    "turn": "T1b"
   },
   "problem_solving": {
-    "score": 3,
-    "quote": "Ehrlich gesagt schaue ich zuerst, wer gerade wirklich festsitzt, zum Beispiel jemand, der gesperrt ist oder kurz vor einer Mahnung steht, und den anderen sage ich ruhig, dass sie gleich dran sind.",
-    "turn": "T3b"
+    "score": 4,
+    "quote": "I went back into the account, found the duplicate, flagged it to billing, and called her again that afternoon to confirm the refund and explain what had happened.",
+    "turn": "T2b"
   },
   "tips": [
-    "Nenne bei Zahlen und Fakten den genauen Wert statt Sch\u00e4tzungen wie \u201eeher ungef\u00e4hr\u201c oder \u201eso um die zehn\u201c. Ein kurzer Satz wie \u201eIch habe 34 Anrufe pro Schicht nachgez\u00e4hlt\u201c zeigt Sorgfalt.",
-    "Beschreibe bei L\u00f6sungen die Schritte in der Reihenfolge, in der du sie gemacht hast, und benenne konkret, was du im System gepr\u00fcft oder ge\u00e4ndert hast. So wird aus \u201edie Korrektur angesto\u00dfen\u201c ein nachvollziehbarer Handgriff."
+    "Replace hedges with facts you already know: in T3b, say when the callback happened or that you checked the notes, instead of 'I'd like to think she didn't feel forgotten'.",
+    "End each story with a concrete outcome and what you changed afterward, as in T2b, and give the same level of detail for the result in T1b, such as what the customer said at the end."
   ]
 }

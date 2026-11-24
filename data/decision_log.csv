@@ -1,9 +1,9 @@
 turn,agent,decision,reason
-1,Mea,new question,"Erzählen Sie mir von einer Situation, in der ein Kunde sehr unzufrieden war. Was ist passi"
-1,Candidate,answered,"Ja, da war mal ein Kunde, der wegen einer falsch berechneten Rechnung richtig sauer war un"
-2,Mea,new question,"Was genau haben Sie nach dem Gespräch unternommen, damit die Korrektur tatsächlich bei ihm"
-2,Candidate,answered,"Ich hab ihm noch am selben Abend eine kurze E-Mail geschrieben, dass meine Zahl mit den An"
-3,Mea,new question,"Wie haben Sie entschieden, welches Kundenanliegen zuerst drankommt, als mehrere Kunden gle"
-3,Candidate,answered,"Ehrlich gesagt schaue ich zuerst, wer gerade wirklich festsitzt, zum Beispiel jemand, der "
-final,Coach,communication=4,"T2b: ""Und am Ende des Gesprächs klang er merklich entspannter als am Anfang,"""
-final,Coach,problem_solving=3,"T3b: ""Ehrlich gesagt schaue ich zuerst, wer gerade wirklich festsitzt, zum B"""
+1,Mea,new question,"Tell me about a time you had to calm down an upset customer. What did they say, and what d"
+1,Candidate,answered,"Sure. A customer once told me, ""This is the third time I've called and nobody has fixed th"
+2,Mea,new question,"Tell me about a time you made a mistake while helping a customer. What happened, and how d"
+2,Candidate,answered,"A while back, a customer called about a charge that seemed to go through twice, and I told"
+3,Mea,new question,Tell me about a time you had to handle several customer requests at once and something had
+3,Candidate,answered,"Sure, I'd say it was a Tuesday when three customers were on hold and one had a billing pro"
+final,Coach,communication=4,"T1b: ""I let him finish, told him I understood why he was frustrated, and the"""
+final,Coach,problem_solving=4,"T2b: ""I went back into the account, found the duplicate, flagged it to billi"""

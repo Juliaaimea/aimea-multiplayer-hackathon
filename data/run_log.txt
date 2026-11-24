@@ -1,0 +1,26 @@
+[1] Mea       -> new question | Tell me about a time you had to calm down an upset customer. What did they say, and what d
+[1] Candidate -> answered | Sure. A customer once told me, "This is the third time I've called and nobody has fixed th
+[2] Mea       -> new question | Tell me about a time you made a mistake while helping a customer. What happened, and how d
+[2] Candidate -> answered | A while back, a customer called about a charge that seemed to go through twice, and I told
+[3] Mea       -> new question | Tell me about a time you had to handle several customer requests at once and something had
+[3] Candidate -> answered | Sure, I'd say it was a Tuesday when three customers were on hold and one had a billing pro
+[final] Coach     -> communication=4 | T1b: "I let him finish, told him I understood why he was frustrated, and the"
+[final] Coach     -> problem_solving=4 | T2b: "I went back into the account, found the duplicate, flagged it to billi"
+
+Coach feedback:
+{
+  "communication": {
+    "score": 4,
+    "quote": "I let him finish, told him I understood why he was frustrated, and then walked him through a reset while I checked the outage log.",
+    "turn": "T1b"
+  },
+  "problem_solving": {
+    "score": 4,
+    "quote": "I went back into the account, found the duplicate, flagged it to billing, and called her again that afternoon to confirm the refund and explain what had happened.",
+    "turn": "T2b"
+  },
+  "tips": [
+    "Replace hedges with facts you already know: in T3b, say when the callback happened or that you checked the notes, instead of 'I'd like to think she didn't feel forgotten'.",
+    "End each story with a concrete outcome and what you changed afterward, as in T2b, and give the same level of detail for the result in T1b, such as what the customer said at the end."
+  ]
+}

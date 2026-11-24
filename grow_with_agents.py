@@ -7,12 +7,13 @@ LLM calls go through the Claude Code CLI (`claude -p`). Synthetic data only.
 """
 import csv, json, subprocess, sys, pathlib
 
-ROLE = "Customer Support Agent (retail, Hamburg)"
+ROLE = "Customer Support Agent (retail, San Francisco)"
 PERSONA = sys.argv[1] if len(sys.argv) > 1 else "Sam, 2 years in a call center, calm, sometimes vague about numbers"
 TURNS = 3
 OUT = pathlib.Path(__file__).parent / "data"
 
 def ask(system, prompt):
+    system = "Always answer in English. " + system
     r = subprocess.run(["claude", "-p", "--model", "haiku", f"{system}\n\n{prompt}"],
                        capture_output=True, text=True, timeout=120)
     return r.stdout.strip()
